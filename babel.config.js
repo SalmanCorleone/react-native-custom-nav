@@ -9,6 +9,17 @@ module.exports = function (api) {
           relativeSourceLocation: true,
         },
       ],
+      [
+        "module-resolver",
+        {
+          alias: {
+            components: "./components",
+            screens: "./screens/",
+            models: "./models/",
+            utils: "./utils/",
+          },
+        },
+      ],
     ],
   };
 };

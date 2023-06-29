@@ -1,10 +1,9 @@
-import { View, Text, Button } from "react-native";
-import React from "react";
 import { NavigationProp, useNavigation } from "@react-navigation/native";
-import { SafeAreaView } from "react-native-safe-area-context";
-import { TouchableOpacity } from "react-native-gesture-handler";
-import { HomeStackParamsT } from "models/navigation";
 import Header from "components/header";
+import { HomeStackParamsT } from "models/navigation";
+import React from "react";
+import { Button, View } from "react-native";
+import { SafeAreaView } from "react-native-safe-area-context";
 
 const Start = () => {
   const navigation: NavigationProp<HomeStackParamsT> = useNavigation();
