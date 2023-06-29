@@ -4,7 +4,7 @@ import { StyleSheet } from "react-native";
 import Animated, { interpolate, useAnimatedStyle } from "react-native-reanimated";
 
 const DrawerScreenWrapper = ({ children }) => {
-  const drawerProgress = useDrawerProgress();
+  const drawerProgress: any = useDrawerProgress();
 
   const animatedStyle = useAnimatedStyle(() => {
     const borderRadius = interpolate(drawerProgress.value, [0, 1], [0, 40]);

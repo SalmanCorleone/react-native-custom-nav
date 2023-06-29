@@ -1,13 +1,19 @@
-import { View, Text } from "react-native";
+import { View, Text, StyleSheet } from "react-native";
 import React from "react";
 import { SafeAreaView } from "react-native-safe-area-context";
+import { colors } from "utils/colors";
 
 const Details = () => {
   return (
-    <SafeAreaView style={{ backgroundColor: "#fff", flex: 1 }}>
-      <Text>Details</Text>
+    <SafeAreaView style={styles.bg}>
+      <Text style={styles.text}>Details Screen</Text>
     </SafeAreaView>
   );
 };
 
 export default Details;
+
+const styles = StyleSheet.create({
+  bg: { backgroundColor: "#fff", flex: 1, justifyContent: "center", alignItems: "center" },
+  text: { fontSize: 32, color: colors.darkGray },
+});

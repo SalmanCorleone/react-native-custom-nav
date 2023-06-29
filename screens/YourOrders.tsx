@@ -1,7 +1,7 @@
+import DrawerScreenWrapper from "components/drawer/DrawerScreenWrapper";
+import Header from "components/header";
 import React from "react";
 import { SafeAreaView } from "react-native-safe-area-context";
-import Header from "../components/Header";
-import DrawerScreenWrapper from "../components/drawer/DrawerScreenWrapper";
 
 const YourOrders = () => {
   return (

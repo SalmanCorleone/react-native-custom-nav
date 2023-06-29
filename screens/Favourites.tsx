@@ -1,10 +1,7 @@
-import { View, Text } from "react-native";
+import DrawerScreenWrapper from "components/drawer/DrawerScreenWrapper";
+import Header from "components/header";
 import React from "react";
-import { useNavigation } from "@react-navigation/native";
 import { SafeAreaView } from "react-native-safe-area-context";
-import { TouchableOpacity } from "react-native-gesture-handler";
-import Header from "../components/Header";
-import DrawerScreenWrapper from "../components/drawer/DrawerScreenWrapper";
 
 const Favourites = () => {
   return (

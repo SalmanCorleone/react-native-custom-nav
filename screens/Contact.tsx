@@ -1,6 +1,6 @@
+import Header from "components/header";
 import React from "react";
 import { SafeAreaView } from "react-native-safe-area-context";
-import Header from "../components/Header";
 
 const Contact = () => {
   return (
